@@ -4,12 +4,14 @@
 
 
 body {
+    background-image: url(/perforated_white_leather.png)
     /* background: #ffffff; */
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; color: #777777;
-    background-image: url(https://img.freepik.com/free-photo/paper-textured-background_53876-30486.jpg?size=626&ext=jpg);
-    height= 100%;
+    /* background-image: url(https://img.freepik.com/free-photo/paper-textured-background_53876-30486.jpg?size=626&ext=jpg); */
+    /* height= 100%; */
     /* background-image:url(/assets/images/perforated_white_leather.png) */
     /* background-image: url(https://image.freepik.com/free-photo/futuristic-background-with-green-letters_1048-2859.jpg) */
+    /* background-image: url(/assets/image/perforated_white_leather.png) */
 }
 
 h1 {
@@ -140,3 +142,11 @@ footer {
 }
 
 
+input {
+    width: 100%;
+}
+
+
+/* body {
+    background-image: url()
+} */
