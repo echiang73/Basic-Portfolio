@@ -148,10 +148,10 @@ margin: 8px -16px;
 padding: 8px;
 }
 
-/* Create four equal columns that floats next to each other */
+/* Create three equal columns that floats next to each other */
 .column {
 float: left;
-width: 25%;
+width: 33.3%;
 }
 
 /* Clear floats after rows */ 
