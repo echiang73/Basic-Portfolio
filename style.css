@@ -122,19 +122,6 @@ header {
     outline-offset: 10px;
 } */
 
-footer {
-    clear: both;
-    background: #666666;
-    color: white;
-    text-align: center;
-    padding-top: 20px;
-    border-top: 8px solid #4aaaa5;
-    
-}
-
-.push{
-    height: 50px;
-}
 
 
 input {
@@ -142,6 +129,51 @@ input {
 }
 
 
-/* body {
-    background-image: url()
-} */
+/* Center website */
+.container {
+max-width: 960px;
+margin: auto;
+}
+
+.row {
+margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+float: left;
+width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* Content */
+.content {
+background-color: white;
+padding: 10px;
+}
+
+footer {
+clear: both;
+background: #666666;
+color: white;
+text-align: center;
+padding-top: 20px;
+border-top: 8px solid #4aaaa5;
+
+}
+
+.push{
+    height: 50px;
+}
